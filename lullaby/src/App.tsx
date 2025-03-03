@@ -1,12 +1,12 @@
 import './App.css'
+import CheckList from './CheckList/CheckList'
 
 function App() {
 
   return (
-    <>
-      <h1>under construction</h1>
-      <button>press me</button>
-    </>
+    <div className='App'> 
+    <CheckList />
+      </div>
   )
 }
 
